@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Urbanist-Bold';
+    src: url('/public/Urbanist/Urbanist-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('/public/Urbanist/Urbanist-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Urbanist', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    color: #2DA470;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.logo a:hover {
+    color: #207852;
+}
+
+.logo-image {
+    width: 100px;
+    height: 80px;
+}
+
+.logo-image path {
+    transition: 0.4s;
+}
+
+.logo-image:hover {
+    cursor: pointer;
+}
+
+.logo-image:hover path {
+    stroke: #207852;
+}
+
+/**/
+.container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+
+.container:hover .overlay {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+/**/
+
+.link {
+    color: #aaa;
+    text-decoration: none;
+    padding: 8px;
+    transition: 0.4s;
+}
+
+.link:hover {
+    color: #888;
+}
+
+.body {
+    text-align: start;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body .heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    height: 650px;
+}
+
+
+.footer {
+    padding: 16px;
+    margin-top: 16px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.section {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px
+}
