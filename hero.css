@@ -11,6 +11,8 @@
 
 .c-hero__container {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .c-hero-main-headline {
