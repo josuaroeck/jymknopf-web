@@ -9,8 +9,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    background-color: #0c2a1e;
-    color: white;
+    background-color: #F2F2F7;
+    color: black;
 }
 
 .App {
@@ -26,7 +26,6 @@ body {
 }
 
 a {
-    color: #fff;
     text-decoration: none;
 }
 
@@ -35,14 +34,14 @@ a:hover {
 }
 
 .link {
-    color: #aaa;
+    color: #000;
     text-decoration: none;
     padding: 8px;
     transition: 0.4s;
 }
 
 .link:hover {
-    color: #888;
+    color: #333;
 }
 
 .body {
@@ -64,7 +63,6 @@ a:hover {
 
 h1 {
     font-size: 60px;
-    margin-bottom: 30px;
 }
 
 .u-padding_10 {

@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1A392C;
     width: 100%;
     min-height: 100vh;
     gap: 150px;
@@ -13,42 +12,81 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .c-hero-main-headline {
-    font-size: 70px;
-    color: #00FF55;
-    margin-bottom: 30px;
+    font-size: 40px;
     text-decoration: none;
 }
 
-.c-hero-main-headline:hover {
-    text-decoration: underline;
-}
-
 .c-hero-headline-2 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.c-headline {
+    max-width: 430px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+.c-screenshot-image {
+    object-fit: contain;
+    max-width: 280px;
+}
+
+.c-screenshot-image__center {
+    max-width: 300px;
+}
+
+.c-appstore_badge {
+    margin: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .c-hero-main-headline {
-        font-size: 90px;
+        font-size: 50px;
     }
 
     .c-hero-headline-2 {
-        font-size: 60px;
+        font-size: 40px;
+    }
+
+    .c-headline {
+        max-width: 700px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .c-hero-main-headline {
-        font-size: 100px;
+        font-size: 60px;
     }
 
     .c-hero-headline-2 {
-        font-size: 70px;
+        font-size: 50px;
+    }
+
+    .c-screenshot-image {
+        max-width: 320px;
+    }
+
+    .c-screenshot-image__center {
+        max-width: 340px;
+    }
+
+    .c-headline {
+        max-width: 100%;
     }
 }
 
