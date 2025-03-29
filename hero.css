@@ -50,6 +50,11 @@
     max-width: 300px;
 }
 
+.c-screenshot-image__round {
+    border-radius: 50px;
+    margin: 10px;
+}
+
 .c-appstore_badge {
     margin: 20px;
 }
