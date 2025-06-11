@@ -1,0 +1,44 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textfield {
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    fill: none;
+    background-color: #f2f2f7;
+    resize: none;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 2px;
+}
+
+.input-wrapper label {
+    padding-left: 10px;
+}
+
+h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-info h1 {
+    font-size: 40px;
+}

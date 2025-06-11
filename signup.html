@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="app-info.css">
+    <link rel="stylesheet" href="form.css">
+
+    <title>Beta Signup</title>
+</head>
+
+<body>
+    <div class="App">
+        <div class="body c-leading">
+            <div class="content-info">
+                <h4>Be a Beta Tester</h4>
+                <h1>Grab an invite</h1>
+                <p>Want to help us shape the future of Kraftakt?<br>
+                    Sign up for the private beta and we’ll email you with an invite code soon.</p>
+            </div>
+
+            <form class="form-wrapper" action="https://formspree.io/f/xrbkpvjr" method="POST">
+                <div class="input-wrapper">
+                    <label for="name">Name*</label>
+                    <input class="textfield" type="text" name="name" id="name" placeholder="Your name" required />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email of your Apple-ID*</label>
+                    <input class="textfield" type="email" name="email" id="email" placeholder="email@domain.com"
+                        required />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="referral">How’d you hear about us?</label>
+                    <textarea class="textfield" name="referral" id="referral"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <button class="button" type="submit">Get on the list</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

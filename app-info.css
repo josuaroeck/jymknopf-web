@@ -43,6 +43,13 @@
     font-size: 16px;
 }
 
+.c-leading {
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+    max-width: 550px;
+}
+
 @media screen and (min-width: 768px) {
     .c-app-info p {
         font-size: 20px;

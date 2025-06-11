@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="app-info.css">
+    <link rel="stylesheet" href="form.css">
 
     <link rel="icon" type="image/x-icon" href="static/favicon/favicon.ico">
 
@@ -47,6 +48,27 @@
                     </div>
                 </div>
             </div>
+
+            <form class="form-wrapper" action="https://formspree.io/f/xrbkpvjr" method="POST">
+                <div class="input-wrapper">
+                    <label for="name">Name:</label>
+                    <input class="textfield" type="text" name="name" id="name" placeholder="Your name" required />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email:</label>
+                    <input class="textfield" type="email" name="email" id="email" placeholder="Email" required />
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="referral">How’d you hear about us?</label>
+                    <textarea class="textfield" name="referral" id="referral"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <button class="button" type="submit">Get on the list</button>
+                </div>
+            </form>
         </div>
 
         <div class='footer'>
