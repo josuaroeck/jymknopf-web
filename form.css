@@ -28,7 +28,7 @@
 }
 
 h4 {
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     color: #888888;
 }
@@ -41,4 +41,47 @@ h4 {
 
 .content-info h1 {
     font-size: 40px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 20px;
+}
+
+.benefit {
+    max-width: 300px;
+}
+
+.c-hero__lp {
+    gap: 10px;
+    min-height: 90vh;
+}
+
+.c-screenshot-image__mobile {
+    margin-top: -20px;
+}
+
+.c-screenshot-image__desktop {
+    display: none;
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .benefits {
+        flex-direction: row;
+    }
+
+    .c-hero__lp {
+        flex-direction: row;
+    }
+
+    .c-screenshot-image__mobile {
+        display: none;
+    }
+
+    .c-screenshot-image__desktop {
+        display: block;
+    }
 }
