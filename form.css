@@ -12,6 +12,7 @@
     fill: none;
     background-color: #f2f2f7;
     resize: none;
+    font-size: 1em;
 }
 
 .input-wrapper {
@@ -21,10 +22,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
     gap: 2px;
-}
-
-.input-wrapper label {
-    padding-left: 10px;
 }
 
 h4 {
